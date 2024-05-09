@@ -24,9 +24,9 @@ func Carregar() {
 
 	Porta, erro = strconv.Atoi(os.Getenv("API_PORT"))
 	if erro != nil {
-		Porta = 9000
+		Porta = 8080
 	}
 
-	StringConexaoBanco = fmt.Sprintf("%s:%s@/%s?charset=utf8&parseTime=True&Loc=Local", os.Getenv("DB_USUARIO"), os.Getenv("DB_SENHA"), os.Getenv("DB_NOME"))
+	StringConexaoBanco = fmt.Sprintf("%s:%s@/%s?charset=utf8&parseTime=True&loc=Local", os.Getenv("DB_USUARIO"), os.Getenv("DB_SENHA"), os.Getenv("DB_NOME"))
 
 }

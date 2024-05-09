@@ -12,7 +12,7 @@ func main() {
 	config.Carregar()
 
 	fmt.Println(config.Porta)
-	fmt.Println("Rodando API: localhost:8080")
+	fmt.Printf("Rodando API: localhost:%d", config.Porta)
 
 	r := router.Gerar()
 

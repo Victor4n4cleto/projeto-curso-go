@@ -14,3 +14,13 @@ problema - erro de syntax no SQL - RESOLVIDO
 
 3 - Implementamos as variaveis de ambiente e utilizando godotenv package externo
     e agora uma função CARREGAR lê o .env e executa no main do codigo para abrir o DB
+
+4 - json de teste de rota:
+    {
+        "nome": "Jõao",
+        "nick": "joao",
+        "email": "joao@gmail.com",
+        "senha": "1234567"
+    }
+
+5 - Rota e criançao de usuario funcionando. Teste REST realizado.
