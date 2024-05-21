@@ -24,3 +24,4 @@ problema - erro de syntax no SQL - RESOLVIDO
     }
 
 5 - Rota e criançao de usuario funcionando. Teste REST realizado.
+6 - Senhas no banco nao pode ser salva padrao, tem que ter um hash
